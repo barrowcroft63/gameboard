@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gameboard"
+authors = [
+    {name = "barrowcroft", email = "barrowcroft@outlook.com"},
+]
+description = "A class to load and manipulate gameboards from 'tab' files"
+version="1.0.0"
+
+readme = "README.md"
+requires-python = ">=3.12"
+keywords = ["one", "two"]
+license = {text = "MIT"}
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = []
